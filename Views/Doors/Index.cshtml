@@ -1,0 +1,73 @@
+﻿@model Doors2Heaven.Models.DoorMaterialViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form asp-controller="Doors" asp-action="Index" method="get">
+    <p>
+        <select asp-for="DoorMaterial" asp-items="Model.Material">
+            <option value="">All</option>
+        </select>
+
+        Title: <input type="text" asp-for="SearchString" />
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Doors![0].Types_of_Door)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Doors![0].Style_of_Door)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Doors![0].Features)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Doors![0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Doors![0].Material)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Doors![0].Ratings)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Doors!) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Types_of_Door)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Style_of_Door)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Features)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Material)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ratings)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
