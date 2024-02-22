@@ -14,9 +14,9 @@ All team members started to gather information related to the top Doors manufact
 So, the team leader suggests combining the information of all members and selecting the top companies.
 
 List of referred companies.
-1. Jeld-Wen Windows & Doors – $288.56M | Canada. (https://www.jeld-wen.com/en-us/products/exterior-doors/browse)
-2. Weather Shield Windows & Doors – $413.45M | United States. (https://weathershield.com/products/multi-slide-door-contemporary-collection/)
-3. Pella Windows & Doors. (https://www.pella.com/shop/doors/patio-doors/reserve/traditional/multi-slide-patio-doors/)
+1.Jeld-Wen Windows & Doors – $288.56M | Canada. (https://www.jeld-wen.com/en-us/products/exterior-doors/browse)
+2.Weather Shield Windows & Doors – $413.45M | United States. (https://weathershield.com/products/multi-slide-door-contemporary-collection/)
+3.Pella Windows & Doors. (https://www.pella.com/shop/doors/patio-doors/reserve/traditional/multi-slide-patio-doors/)
 
 1330
 2024-02-16
