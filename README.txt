@@ -86,7 +86,7 @@ Created a new class named SeedData in the Models folder and added the necessary 
 
 1405
 2024-02-19
-##Part 6: Controller Actions and Views
+##Part 6:Controller Actions and Views
 Get into controller actions and views. 
 Then processed and displayed data in the appropriate views and Edit, Details, and Delete links are generated.
 
