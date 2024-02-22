@@ -10,7 +10,7 @@ Kinjalben Gherawada -0848290
 
 Project work Started
 We all team members select the name for the Project that is Doors2Heaven. 
-All team members started to gather information related to the top companies of Doors in Canada. 
+All team members started to gather information related to the top Doors manufactering companies in Canada. 
 So, the team leader suggests combining the information of all members and selecting the top companies.
 
 List of referred companies.
