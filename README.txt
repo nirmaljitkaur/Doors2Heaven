@@ -34,7 +34,7 @@ The next step is to select the entities for the project field. After the team di
 2024-02-18
 
 ### Project Title:Doors2Heaven
-##Part 1: Added a Controller to ASP.NET Core MVC App
+##Part 1:Added a Controller to ASP.NET Core MVC App
 Create a web application named as Doors2Heaven. After following all the steps, We run the application with ctrl+f5 button.
 It successfully runs the application and displays the welcome page.
 
