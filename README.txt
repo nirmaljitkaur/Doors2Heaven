@@ -10,13 +10,13 @@ Kinjalben Gherawada -0848290
 
 Project work Started
 We all team members select the name for the Project that is Doors2Heaven. 
-All team members started to gather information related to the top companies of Doors in Canada. 
+All team members started to gather information related to the top Doors manufactering companies in Canada. 
 So, the team leader suggests combining the information of all members and selecting the top companies.
 
 List of referred companies.
-1. Jeld-Wen Windows & Doors – $288.56M | Canada. (https://www.jeld-wen.com/en-us/products/exterior-doors/browse)
-2. Weather Shield Windows & Doors – $413.45M | United States. (https://weathershield.com/products/multi-slide-door-contemporary-collection/)
-3. Pella Windows & Doors. (https://www.pella.com/shop/doors/patio-doors/reserve/traditional/multi-slide-patio-doors/)
+1.Jeld-Wen Windows & Doors – $288.56M | Canada. (https://www.jeld-wen.com/en-us/products/exterior-doors/browse)
+2.Weather Shield Windows & Doors – $413.45M | United States. (https://weathershield.com/products/multi-slide-door-contemporary-collection/)
+3.Pella Windows & Doors. (https://www.pella.com/shop/doors/patio-doors/reserve/traditional/multi-slide-patio-doors/)
 
 1330
 2024-02-16
@@ -34,7 +34,7 @@ The next step is to select the entities for the project field. After the team di
 2024-02-18
 
 ### Project Title:Doors2Heaven
-##Part 1: Added a Controller to ASP.NET Core MVC App
+##Part 1:Added a Controller to ASP.NET Core MVC App
 Create a web application named as Doors2Heaven. After following all the steps, We run the application with ctrl+f5 button.
 It successfully runs the application and displays the welcome page.
 
@@ -86,7 +86,7 @@ Created a new class named SeedData in the Models folder and added the necessary 
 
 1405
 2024-02-19
-##Part 6: Controller Actions and Views
+##Part 6:Controller Actions and Views
 Get into controller actions and views. 
 Then processed and displayed data in the appropriate views and Edit, Details, and Delete links are generated.
 
