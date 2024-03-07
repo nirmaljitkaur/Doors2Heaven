@@ -8,6 +8,7 @@ Kinjalben Gherawada -0848290
 1430
 2024-02-15 
 
+
 Project work Started
 We all team members select the name for the Project that is Doors2Heaven. 
 All team members started to gather information related to the top Doors manufactering companies in Canada. 
@@ -32,6 +33,8 @@ The next step is to select the entities for the project field. After the team di
 
 1910
 2024-02-18
+
+Nirmal
 
 ### Project Title:Doors2Heaven
 ##Part 1:Added a Controller to ASP.NET Core MVC App
@@ -58,6 +61,7 @@ Change views and layout pages
 
 Passing Data from the Controller to the View
 
+Kinjal
 1955
 2024-02-18
 ##Part 4: Add a model to an ASP.NET Core MVC app
@@ -92,6 +96,9 @@ Then processed and displayed data in the appropriate views and Edit, Details, an
 
 1415
 2024-02-19
+
+Saiyam
+
 ##Part 7:Add Search to filter:
 I added a search button to check records by filter.
 Then Navigated to /Doors2Heaven/Index to display filtered different kinds of doors.
