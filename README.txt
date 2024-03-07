@@ -132,4 +132,11 @@ Added product column in the header and removed Door2Heaven column.
 2024-03-03
 Add log in page
 
+KINJAL
+2050
+2024-03-03
+Confirmed the azure student credit from 100 USD to 135 CAD 
 
+2130
+2024-03-03
+Deployed our web site in microsoft azure
