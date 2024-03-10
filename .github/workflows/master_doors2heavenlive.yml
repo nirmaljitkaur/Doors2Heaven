@@ -32,10 +32,13 @@ jobs:
         run: dotnet tool install -g dotnet-ef --version 8.0.2
 
       - name: dotnet bundle migration
-        run: dotnet ef migrations bundle --runtime linux-x64 -p BloomButtons.csproj --context BloomButtonsContext -o ${{env.DOTNET_ROOT}}/myapp/migrate
+        run: dotnet ef migrations bundle --runtime linux-x64 -p Doors2Heaven.csproj --context Doors2HeavenContext -o ${{env.DOTNET_ROOT}}/myapp/migrate
 
       - name: dotnet bundle migration
-        run: dotnet ef migrations bundle --runtime linux-x64 -p BloomButtons.csproj --context ApplicationDbContext -o ${{env.DOTNET_ROOT}}/myapp/migrate-users
+        run: dotnet ef migrations bundle --runtime linux-x64 -p Doors2Heaven.csproj --context ApplicationDbContext -o ${{env.DOTNET_ROOT}}/myapp/migrate-users
+
+      - name: dotnet bundle migration
+        run: dotnet ef migrations bundle --runtime linux-x64 -p Doors2Heaven.csproj --context DoorsContext -o ${{env.DOTNET_ROOT}}/myapp/migrate-doors
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
