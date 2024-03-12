@@ -4,6 +4,7 @@ using Doors2Heaven.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Doors2Heaven.Migrations.Doors2Heaven
 {
     [DbContext(typeof(Doors2HeavenContext))]
-    partial class Doors2HeavenContextModelSnapshot : ModelSnapshot
+    [Migration("20240309224757_AddUserss")]
+    partial class AddUserss
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

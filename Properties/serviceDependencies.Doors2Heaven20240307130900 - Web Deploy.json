@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/Doors2Heaven20240307130900/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDoors2HeavenContext_1E226E5CDC",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/doors2heavendbserver/databases/Doors2Heaven_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:Doors2HeavenContext",
+      "dynamicId": null
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/Doors2Heaven20240307130900/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDefaultConnection_D90EC7E16A",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/doors2heavendbserver/databases/Doors2Heaven_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DefaultConnection",
+      "dynamicId": null
+    }
+  }
+}

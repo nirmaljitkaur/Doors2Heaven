@@ -1,4 +1,4 @@
-﻿using Doors2Heaven.Data;
+using Doors2Heaven.Data;
 using Doors2Heaven.Models;
 
 using Microsoft.AspNetCore.Identity;
