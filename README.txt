@@ -147,3 +147,8 @@ Confirmed the azure student credit from 100 USD to 135 CAD
 2130
 2024-03-03
 Deployed our web site in microsoft azure
+
+Nirmaljit Kaur
+1930
+2024-03-08
+Deployed the website Doors2Heaven in microsoft azure.

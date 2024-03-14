@@ -15,5 +15,6 @@ namespace Doors2Heaven.Data
         }
 
         public DbSet<Doors2Heaven.Models.Doors> Doors { get; set; } = default!;
+        public DbSet<Doors2Heaven.Models.User> Users { get; set; }
     }
 }

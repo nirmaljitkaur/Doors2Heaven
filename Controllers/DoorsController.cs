@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Doors2Heaven.Data;
 using Doors2Heaven.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Doors2Heaven.Controllers
 {
@@ -24,6 +25,7 @@ namespace Doors2Heaven.Controllers
         {
             return View(await _context.Doors.ToListAsync());
         }*/
+        [Authorize]
         public async Task<IActionResult> Index(string movieGenre, string searchString)
         {
             if (_context.Doors == null)
@@ -58,6 +60,7 @@ namespace Doors2Heaven.Controllers
         }
 
         // GET: Doors/Details/5
+        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -76,6 +79,7 @@ namespace Doors2Heaven.Controllers
         }
 
         // GET: Doors/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -98,6 +102,7 @@ namespace Doors2Heaven.Controllers
         }
 
         // GET: Doors/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -118,6 +123,7 @@ namespace Doors2Heaven.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Types_of_Door,Style_of_Door,Features,Price,Material,Ratings")] Doors doors)
         {
             if (id != doors.Id)
@@ -149,6 +155,7 @@ namespace Doors2Heaven.Controllers
         }
 
         // GET: Doors/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -169,6 +176,7 @@ namespace Doors2Heaven.Controllers
         // POST: Doors/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var doors = await _context.Doors.FindAsync(id);
