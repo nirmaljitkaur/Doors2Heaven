@@ -12,15 +12,15 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Doors2Heaven.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240309225234_CreateIdentitySchema")]
-    partial class CreateIdentitySchema
+    [Migration("20240314224408_IdentitySchema")]
+    partial class IdentitySchema
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.2")
+                .HasAnnotation("ProductVersion", "8.0.3")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
