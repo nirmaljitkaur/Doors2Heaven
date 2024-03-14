@@ -11,10 +11,13 @@
 
 <h1 style="color: black; font-weight: bolder;">Index</h1>
 
- 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+@if(User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+
 <form asp-controller="Doors" asp-action="Index" method="get">
     <p>
         <select asp-for="DoorMaterial" asp-items="Model.Material">
@@ -75,11 +78,14 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Ratings)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
+            @if(User.IsInRole("Admin"))
+            {
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            }
         </tr>
 }
     </tbody>
